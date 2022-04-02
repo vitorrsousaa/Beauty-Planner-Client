@@ -64,12 +64,12 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
 Afim de facilitar a organização e manutenção do código, foi definido um padrão para organização das pastas neste projeto.
 
-- \_assets
+-> \_assets
 
-  - Estilização global;
-  - Icones;
-  - UI;
-  - Imagens;
+- Estilização global;
+- Icones;
+- UI;
+- Imagens;
 
 - components
 
