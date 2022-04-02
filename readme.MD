@@ -56,31 +56,32 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 - [ ] Adicionar mapa na Search Page;
 - [ ] Responsividade da Search Page;
 - [x] Implementar rotas para a Store Page;
-- [] Componentização da Store Page;
+- [ ] Componentização da Store Page;
 - [ ] Estilização da Store Page;
 - [ ] Responsividade da Store Page;
 
 ## 🛠 Estrutura de pastas
 
 Afim de facilitar a organização e manutenção do código, foi definido um padrão para organização das pastas neste projeto.
-→ \_assets
+
+> \_assets
 
 - Estilização global;
 - Icones;
 - UI;
 - Imagens;
-  → components
+  > components
 - Todos os componentes globais do projeto;
-  → context
+  > context
 - Armazena os contextos da aplicação;
-  → pages
+  > pages
 - Páginas da aplicação;
-  → services
+  > services
 - Todos os acessos externos;
-  → helpers
+  > helpers
 - Funções para formatação de datas;
 - Funções para formatação de números;
-  → hooks
+  > hooks
 - Custom hooks
 
 ## 🎨 Design System
