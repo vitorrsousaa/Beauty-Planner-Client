@@ -64,25 +64,36 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
 Afim de facilitar a organização e manutenção do código, foi definido um padrão para organização das pastas neste projeto.
 
-> \_assets
+- \_assets
 
-- Estilização global;
-- Icones;
-- UI;
-- Imagens;
-  > components
-- Todos os componentes globais do projeto;
-  > context
-- Armazena os contextos da aplicação;
-  > pages
-- Páginas da aplicação;
-  > services
-- Todos os acessos externos;
-  > helpers
-- Funções para formatação de datas;
-- Funções para formatação de números;
-  > hooks
-- Custom hooks
+  - Estilização global;
+  - Icones;
+  - UI;
+  - Imagens;
+
+- components
+
+  - Todos os componentes globais do projeto;
+
+- context
+
+  - Armazena os contextos da aplicação;
+
+- pages
+
+  - Páginas da aplicação;
+
+- services
+
+  - Todos os acessos externos;
+
+- helpers
+
+  - Funções para formatação de datas;
+  - Funções para formatação de números;
+
+- hooks
+  - Custom hooks
 
 ## 🎨 Design System
 
