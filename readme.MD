@@ -46,54 +46,44 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 ## ⚙️ Funcionalidades
 
 - [x] Construção da LandingPage;
-- [x] Componentização do Texting e Heading do DesignSystem;
-- [ ] Responsividade da LandingPage;
+- [x] Responsividade da LandingPage;
+- [ ] Implementar Modal na Landing page;
 - [ ] Implementar funcionalidade no input da LandingPage;
-- [x] Criar as rotas da aplicação;
+- [ ] Criar as rotas da aplicação;
 - [x] Implementar rotas para a Search Page;
 - [x] Componentização da Search Page;
 - [ ] Estilização da Search Page;
 - [ ] Adicionar mapa na Search Page;
 - [ ] Responsividade da Search Page;
-- [x] Implementar rotas para a Store Page;
+- [ ] Implementar rotas para a Store Page;
 - [ ] Componentização da Store Page;
 - [ ] Estilização da Store Page;
 - [ ] Responsividade da Store Page;
 
-## 🛠 Estrutura de pastas
+## 🛠 Estrutura de pastas e componentes
 
 Afim de facilitar a organização e manutenção do código, foi definido um padrão para organização das pastas neste projeto.
 
--> \_assets
+→ \_assets: Contém a estilização global, icones, UI e Imagens;
+→ components: Todos os componentes globais do projeto;
+→ context: Armazena os contextos da aplicação;
+→ containers: Armazena os containers que se repetem na aplicação;
+→ helpers: Funções para formatação de datas, funções para formatação de números, etc;
+→ hooks: Custom hooks;
+→ pages: Armazena as páginas da aplicação;
+→ routes: Armazena as rotas da aplicação;
+→ services: Todos os acessos externos;
 
-- Estilização global;
-- Icones;
-- UI;
-- Imagens;
+Todos os componentes criados vão seguir uma mesma estrutura de organização:
+→ index.tsx: Responsável por exportar o componente;
+→ interface.ts: Responsável por exportar as interfaces;
+→ style.ts: StyledComponents do componente;
 
-- components
-
-  - Todos os componentes globais do projeto;
-
-- context
-
-  - Armazena os contextos da aplicação;
-
-- pages
-
-  - Páginas da aplicação;
-
-- services
-
-  - Todos os acessos externos;
-
-- helpers
-
-  - Funções para formatação de datas;
-  - Funções para formatação de números;
-
-- hooks
-  - Custom hooks
+A pasta com as páginas vai seguir uma sequência lógica parecida com os demais componentes e estruturas
+→ /components: Componentes que são utilizados apenas naquela páginas;
+→ index.tsx: Responsável por exportar a página;
+→ interface.ts: Responsável por exportar as interfaces;
+→ style.ts: StyledComponents da página;
 
 ## 🎨 Design System
 
