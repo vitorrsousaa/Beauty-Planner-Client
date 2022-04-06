@@ -1,12 +1,10 @@
 import styled from "styled-components";
+import { ContainerAlign } from "../../containers/container";
 
-export const ContainerLinks = styled.div`
+export const ContainerLinks = styled(ContainerAlign)`
   a:not(:first-child) {
     margin-left: 1.25rem;
   }
-
-  display: flex;
-  align-items: center;
 
   @media (max-width: 1140px) {
     a * {

@@ -1,8 +1,10 @@
 import styled from "styled-components";
+import {
+  ContainerAlign,
+  ContainerColumn,
+} from "../../../../containers/container";
 
-export const RatingItemContainer = styled.div`
-  display: flex;
-  flex-direction: column;
+export const RatingItemContainer = styled(ContainerColumn)`
   gap: 1.25rem;
 
   @media (max-width: 500px) {
@@ -21,7 +23,7 @@ export const RatingItemContainer = styled.div`
   }
 `;
 
-export const RatingItemContent = styled.div`
+export const RatingItemContent = styled(ContainerAlign)`
   display: flex;
   align-items: center;
 

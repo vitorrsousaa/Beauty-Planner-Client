@@ -1,8 +1,6 @@
 import styled from "styled-components";
+import { ContainerAlign } from "../../containers/container";
 
-export const LoginContainer = styled.div`
-  display: flex;
-  align-items: center;
-
+export const LoginContainer = styled(ContainerAlign)`
   gap: 10px;
 `;

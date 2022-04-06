@@ -1,5 +1,5 @@
 import { RatingItemProps } from "./interface";
-import { Title, Text } from "../../assets/styles/UI";
+import { Title, Text } from "../../../../assets/styles/UI";
 import { RatingItemContainer, RatingItemContent } from "./styles";
 
 function RatingItem({ children, title, text }: RatingItemProps) {

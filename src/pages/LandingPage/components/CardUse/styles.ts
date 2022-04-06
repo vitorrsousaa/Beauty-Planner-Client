@@ -1,8 +1,7 @@
 import styled from "styled-components";
+import { ContainerColumn } from "../../../../containers/container";
 
-export const CardUserContainer = styled.div`
-  display: flex;
-  flex-direction: column;
+export const CardUserContainer = styled(ContainerColumn)`
   justify-content: center;
   align-items: center;
 

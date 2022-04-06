@@ -7,10 +7,8 @@ import { HiOutlineMenu } from "react-icons/hi";
 
 import {
   CareSectionContainer,
-  FooterContainer,
   HeaderContainer,
   HeaderContainerItens,
-  HeaderContainerOpenModal,
   HeaderContainerSearch,
   HeaderContainerText,
   HeaderContentItens,
@@ -21,17 +19,19 @@ import {
   WhatSectionContainer,
 } from "./styles";
 import SearchInput from "../../components/SearchInput";
-import CardUse from "../../components/CardUse";
 import LocationIcon from "../../assets/icons/LocationIcon";
 import Choose from "../../assets/icons/Choose";
 import Travel from "../../assets/icons/Travel";
-import RatingItem from "../../components/RatingItem";
+import RatingItem from "./components/RatingItem";
 import GrowthIcon from "../../assets/icons/Growth";
 import PlayIcon from "../../assets/icons/PlayIcon";
 import LockIcon from "../../assets/icons/LockIcon";
 import CommentsIcon from "../../assets/icons/CommentsIcon";
 import NumberOneIcon from "../../assets/icons/NumberOneIcon";
 import StarIcon from "../../assets/icons/StarIcon";
+import LandingFooter from "./components/Footer";
+import CardUse from "./components/CardUse";
+import { ContainerOpenModal } from "../../containers/container";
 
 function LandingPage() {
   return (
@@ -46,9 +46,9 @@ function LandingPage() {
 
           <Login />
 
-          <HeaderContainerOpenModal>
+          <ContainerOpenModal>
             <HiOutlineMenu />
-          </HeaderContainerOpenModal>
+          </ContainerOpenModal>
         </HeaderContainerItens>
 
         <HeaderContainerText>
@@ -185,24 +185,7 @@ function LandingPage() {
         </RatingSectionColumn>
       </RatingSectionContainer>
 
-      <FooterContainer>
-        <div>
-          <Title variant="heading2Regular" color="var(--gray-light)">
-            Cadastre sua conta e comece a usar hoje mesmo!
-          </Title>
-        </div>
-        <Text color="var(--gray-light)">
-          Todo o conteúdo do site, todas as fotos, imagens, logotipos, marcas,
-          dizeres, software, conjunto imagem, layout, aqui veiculados são de
-          propriedade exclusiva da Beauty Planner LTDA. É vedada qualquer
-          reprodução, total ou parcial, de qualquer elemento de identidade, sem
-          expressa autorização. A violação de qualquer direito mencionado
-          implicará na responsabilização cível e criminal nos termos da Lei.
-          <br />
-          <br />
-          Copyright © 2022 BEAUTY PLANNER. Todos os direitos reservados.
-        </Text>
-      </FooterContainer>
+      <LandingFooter />
     </>
   );
 }

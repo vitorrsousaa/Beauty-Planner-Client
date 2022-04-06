@@ -1,9 +1,7 @@
 import styled from "styled-components";
+import { ContainerAlign } from "../../containers/container";
 
-export const SearchInputContainer = styled.label`
-  display: flex;
-  align-items: center;
-
+export const SearchInputContainer = styled(ContainerAlign)`
   padding: 0.625rem;
   margin-right: 1.7rem;
 

@@ -1,5 +1,6 @@
 import { ReactElement } from "react";
-import { Avatar, Title, Text } from "../../assets/styles/UI";
+import { Avatar, Title, Text } from "../../../../assets/styles/UI";
+
 import { CardUseProps } from "./interface";
 import { CardUserContainer } from "./styles";
 

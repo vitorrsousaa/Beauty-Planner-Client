@@ -47,9 +47,10 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
 - [x] Construção da LandingPage;
 - [x] Responsividade da LandingPage;
+- [ ] Exportar componentes na Landing page;
 - [ ] Implementar Modal na Landing page;
-- [ ] Implementar funcionalidade no input da LandingPage;
-- [ ] Criar as rotas da aplicação;
+- [ ] Implementar Modal na Search page;
+- [ ] Implementar funcionalidade no componente SearchInput;
 - [x] Implementar rotas para a Search Page;
 - [x] Componentização da Search Page;
 - [ ] Estilização da Search Page;
@@ -82,7 +83,7 @@ Todos os componentes criados vão seguir uma mesma estrutura de organização:
 A pasta com as páginas vai seguir uma sequência lógica parecida com os demais componentes e estruturas
 → /components: Componentes que são utilizados apenas naquela páginas; <br />
 → index.tsx: Responsável por exportar a página; <br />
-→ interface.ts: Responsável por exportar as interfaces; <br />
+→ interface.ts: Responsável por exportar as interfaces que são utilizadas globalmente na página; <br />
 → style.ts: StyledComponents da página; <br />
 
 ## 🎨 Design System

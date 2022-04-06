@@ -3,7 +3,7 @@ import { SearchInputContainer } from "./styles";
 
 function SearchInput() {
   return (
-    <SearchInputContainer>
+    <SearchInputContainer as="label">
       <MdGpsNotFixed />
       <input type="text" placeholder="Digite sua cidade ou estado" />
     </SearchInputContainer>

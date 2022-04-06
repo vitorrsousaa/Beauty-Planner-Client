@@ -1,9 +1,7 @@
 import styled from "styled-components";
+import { ContainerAlign } from "../../containers/container";
 
-export const LogoContainer = styled.div`
-  display: flex;
-  align-items: center;
-
+export const LogoContainer = styled(ContainerAlign)`
   h1 {
     font: 300 2rem "Comfortaa";
   }

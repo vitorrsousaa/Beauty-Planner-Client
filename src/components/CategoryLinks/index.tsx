@@ -5,13 +5,19 @@ function CategoryLinks() {
   return (
     <ContainerLinks>
       <a href="">
-        <Title variant="heading4">Salões de beleza</Title>
+        <Title variant="heading4" as="p">
+          Salões de beleza
+        </Title>
       </a>
       <a href="">
-        <Title variant="heading4">Estúdios de tatuagem</Title>
+        <Title variant="heading4" as="p">
+          Estúdios de tatuagem
+        </Title>
       </a>
       <a href="">
-        <Title variant="heading4">Barbearias</Title>
+        <Title variant="heading4" as="p">
+          Barbearias
+        </Title>
       </a>
     </ContainerLinks>
   );

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import {
+  ContainerAlign,
   ContainerColumn,
   ContainerJustifyBetween,
 } from "../../containers/container";
@@ -20,27 +21,7 @@ export const HeaderContainerItens = styled(ContainerJustifyBetween)`
   }
 `;
 
-export const HeaderContainerOpenModal = styled.div`
-  display: none;
-
-  @media (max-width: 1040px) {
-    display: flex;
-
-    svg {
-      width: 1.5rem;
-      height: 1.5rem;
-
-      color: var(--primary);
-
-      cursor: pointer;
-    }
-  }
-`;
-
-export const HeaderContentItens = styled.div`
-  display: flex;
-  align-items: center;
-
+export const HeaderContentItens = styled(ContainerAlign)`
   div + div {
     margin-left: 5.625rem;
   }
@@ -161,30 +142,5 @@ export const RatingSectionColumn = styled.section`
 
   @media (max-width: 750px) {
     grid-template-columns: repeat(1, 1fr);
-  }
-`;
-
-export const FooterContainer = styled.footer`
-  background: var(--primary);
-
-  padding: 0 2.5rem;
-
-  font-family: "Comfortaa", cursive;
-  text-align: center;
-
-  div {
-    padding: 5.375rem 0 1.875rem 0;
-    margin-bottom: 3.75rem;
-
-    border-bottom: 2px solid #8b8c89;
-  }
-
-  h1 {
-    font-family: "Comfortaa", cursive;
-  }
-
-  p {
-    padding-bottom: 5.375rem;
-    font-family: "Comfortaa", cursive;
   }
 `;
