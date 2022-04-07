@@ -1,7 +1,7 @@
 import { MdFilterList, MdArrowForwardIos } from "react-icons/md";
 import { RiHome2Line } from "react-icons/ri";
+
 import { Text } from "../../../../assets/styles/UI";
-import { ContainerAlign } from "../../../../containers/container";
 import {
   CardStackButton,
   CardStackContainer,

@@ -14,8 +14,6 @@ export const StoreListContainer = styled(ContainerAlign)`
   }
 `;
 
-export const TitleContainerStoreList = styled(ContainerJustifyBetween)``;
-
 export const FooterContainerStoreList = styled(ContainerJustifyBetween)`
   div {
     display: flex;

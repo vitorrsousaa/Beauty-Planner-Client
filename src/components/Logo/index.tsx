@@ -1,5 +1,7 @@
-import LogoImage from "../../assets/icons/LogoImage";
 import { LogoProps } from "./interface";
+
+import LogoImage from "../../assets/icons/LogoImage";
+
 import { LogoContainer } from "./styles";
 
 function Logo({ variant }: LogoProps) {

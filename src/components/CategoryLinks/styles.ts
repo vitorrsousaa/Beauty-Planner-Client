@@ -6,9 +6,21 @@ export const ContainerLinks = styled(ContainerAlign)`
     margin-left: 1.25rem;
   }
 
-  @media (max-width: 1140px) {
+  @media (max-width: 1340px) {
     a * {
       font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 1230px) {
+    a * {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media (max-width: 1155px) {
+    a * {
+      font-size: 0.65rem;
     }
   }
 

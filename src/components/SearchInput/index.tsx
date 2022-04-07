@@ -1,4 +1,5 @@
 import { MdGpsNotFixed } from "react-icons/md";
+
 import { SearchInputContainer } from "./styles";
 
 function SearchInput() {

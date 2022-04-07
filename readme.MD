@@ -47,16 +47,19 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
 - [x] Construção da LandingPage;
 - [x] Responsividade da LandingPage;
-- [ ] Exportar componentes na Landing page;
+- [x] Exportar componentes na Landing page;
 - [ ] Implementar Modal na Landing page;
-- [ ] Implementar Modal na Search page;
+- [x] Implementar Modal no HeaderSearch;
+- [ ] Pesquisar na documentação do StyledComponents como agregar propriedades do componente com a function CSS;
+- [ ] Estilizar e componentizar Modal no HeaderSearch;
 - [ ] Implementar funcionalidade no componente SearchInput;
 - [x] Implementar rotas para a Search Page;
 - [x] Componentização da Search Page;
 - [ ] Estilização da Search Page;
+- [ ] Criar UI para Avatar;
 - [ ] Adicionar mapa na Search Page;
 - [ ] Responsividade da Search Page;
-- [ ] Implementar rotas para a Store Page;
+- [x] Implementar rotas para a Store Page;
 - [ ] Componentização da Store Page;
 - [ ] Estilização da Store Page;
 - [ ] Responsividade da Store Page;

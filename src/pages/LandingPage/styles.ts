@@ -80,7 +80,7 @@ export const WhatSectionContainer = styled.section`
   padding: 7.75rem 2.5rem;
 
   p {
-    max-width: 38rem;
+    max-width: 55rem;
   }
 
   p + p {
@@ -133,14 +133,4 @@ export const RatingSectionContainer = styled(ContainerColumn)`
   align-items: center;
 
   gap: 3rem;
-`;
-
-export const RatingSectionColumn = styled.section`
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 3rem;
-
-  @media (max-width: 750px) {
-    grid-template-columns: repeat(1, 1fr);
-  }
 `;

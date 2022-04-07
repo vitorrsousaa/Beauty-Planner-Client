@@ -13,12 +13,3 @@ export const HeaderSearchContainer = styled(ContainerJustifyBetween)`
     }
   }
 `;
-
-export const HeaderSearchContainerItens = styled.div`
-  display: flex;
-  align-items: center;
-
-  a p {
-    font-size: 1rem;
-  }
-`;

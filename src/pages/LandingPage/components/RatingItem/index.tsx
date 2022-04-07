@@ -1,4 +1,5 @@
 import { RatingItemProps } from "./interface";
+
 import { Title, Text } from "../../../../assets/styles/UI";
 import { RatingItemContainer, RatingItemContent } from "./styles";
 

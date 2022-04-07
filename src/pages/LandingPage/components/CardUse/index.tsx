@@ -1,13 +1,12 @@
-import { ReactElement } from "react";
-import { Avatar, Title, Text } from "../../../../assets/styles/UI";
-
 import { CardUseProps } from "./interface";
+
+import { CardAvatar, Title, Text } from "../../../../assets/styles/UI";
 import { CardUserContainer } from "./styles";
 
 function CardUse({ children, step, title, text }: CardUseProps) {
   return (
     <CardUserContainer>
-      <Avatar size="14rem">{children}</Avatar>
+      <CardAvatar size="14rem">{children}</CardAvatar>
       <Title color="var(--primary)" variant="heading3">
         {step}
       </Title>

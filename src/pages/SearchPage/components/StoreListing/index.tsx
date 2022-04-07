@@ -1,6 +1,8 @@
-import { ContainerColumn } from "../../../../containers/container";
-import StoreList from "../StoreList";
 import { StoreListingProps } from "./interface";
+
+import StoreList from "../StoreList";
+
+import { ContainerColumn } from "../../../../containers/container";
 
 function StoreListing({ stores }: StoreListingProps) {
   return (

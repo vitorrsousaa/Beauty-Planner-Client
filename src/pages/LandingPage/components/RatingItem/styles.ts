@@ -24,9 +24,6 @@ export const RatingItemContainer = styled(ContainerColumn)`
 `;
 
 export const RatingItemContent = styled(ContainerAlign)`
-  display: flex;
-  align-items: center;
-
   p {
     margin-left: 1.25rem;
   }

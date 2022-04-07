@@ -1,13 +1,14 @@
-import { AiFillStar, AiFillHeart } from "react-icons/ai";
-import { BsChatLeft } from "react-icons/bs";
-import { Title, Text } from "../../../../assets/styles/UI";
 import { StoreProps } from "../../interface/interfaces";
 
+import { AiFillStar, AiFillHeart } from "react-icons/ai";
+import { BsChatLeft } from "react-icons/bs";
+
+import { Title, Text } from "../../../../assets/styles/UI";
+import { ContainerJustifyBetween } from "../../../../containers/container";
 import {
   FooterContainerStoreList,
   StoreListContainer,
   StoreListContent,
-  TitleContainerStoreList,
 } from "./styles";
 
 function StoreList({
@@ -22,7 +23,7 @@ function StoreList({
     <StoreListContainer>
       <img src="https://picsum.photos/seed/picsum/300/200" alt="" />
       <StoreListContent>
-        <TitleContainerStoreList>
+        <ContainerJustifyBetween>
           <div>
             <Text variant="texting6" color="var(--gray-high)">
               {subtitle}
@@ -32,7 +33,7 @@ function StoreList({
             </Title>
           </div>
           <AiFillHeart />
-        </TitleContainerStoreList>
+        </ContainerJustifyBetween>
         <hr />
         <div>
           <Text variant="texting6" color="var(--gray-high)">

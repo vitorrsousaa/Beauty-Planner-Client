@@ -1,14 +1,7 @@
-import CategoryLinks from "../../components/CategoryLinks";
-import Login from "../../components/Login";
-import Logo from "../../components/Logo";
-import SearchInput from "../../components/SearchInput";
-import { ContainerOpenModal } from "../../containers/container";
-import { HeaderSearchContainer, HeaderSearchContainerItens } from "./style";
-import { HiOutlineMenu } from "react-icons/hi";
 import CardStack from "./components/CardStack";
-
 import StoreListing from "./components/StoreListing";
 import StoreViewer from "./components/StoreViewer";
+import HeaderSearch from "../../components/HeaderSearch";
 
 function SearchPage() {
   const stores = [
@@ -31,19 +24,7 @@ function SearchPage() {
   ];
   return (
     <>
-      <HeaderSearchContainer>
-        <HeaderSearchContainerItens>
-          <Logo />
-          <CategoryLinks />
-        </HeaderSearchContainerItens>
-
-        <SearchInput />
-        <Login />
-
-        <ContainerOpenModal>
-          <HiOutlineMenu />
-        </ContainerOpenModal>
-      </HeaderSearchContainer>
+      <HeaderSearch />
 
       <CardStack />
 

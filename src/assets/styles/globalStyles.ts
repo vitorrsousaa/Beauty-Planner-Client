@@ -29,6 +29,7 @@ export const GlobalStyle = createGlobalStyle`
   
   body {
     color: var(---black);
+    background: var(--white) ;
   }
 
   a{
@@ -42,7 +43,42 @@ export const GlobalStyle = createGlobalStyle`
 
   input{
     outline: none ;
-    
+  }
+
+  .searchModal{
+    height: 35rem;
+    width: 31.25rem;
+    padding: 1.25rem 0;
+
+    background: var(--white);
+
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 8px;
+
+    border: none;
+
+    outline: none;
+
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    flex-direction: column ;
+
+    gap: 1.25rem
+  }
+
+  .overlayModal {
+    background: rgba(0, 0, 0, 0.6 );
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center ;
   }
   
 `;

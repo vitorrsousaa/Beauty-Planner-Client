@@ -1,7 +1,10 @@
-import { Button, Span, Title, Text } from "../../assets/styles/UI";
 import CategoryLinks from "../../components/CategoryLinks";
 import Login from "../../components/Login";
 import Logo from "../../components/Logo";
+import CardListing from "./components/CardListing";
+import RatingSection from "./components/RatingSection";
+import SearchInput from "../../components/SearchInput";
+import LandingFooter from "./components/Footer";
 
 import { HiOutlineMenu } from "react-icons/hi";
 
@@ -12,26 +15,13 @@ import {
   HeaderContainerSearch,
   HeaderContainerText,
   HeaderContentItens,
-  RatingSectionColumn,
   RatingSectionContainer,
   UseSectionContainer,
   UseSectionStepContainer,
   WhatSectionContainer,
 } from "./styles";
-import SearchInput from "../../components/SearchInput";
-import LocationIcon from "../../assets/icons/LocationIcon";
-import Choose from "../../assets/icons/Choose";
-import Travel from "../../assets/icons/Travel";
-import RatingItem from "./components/RatingItem";
-import GrowthIcon from "../../assets/icons/Growth";
-import PlayIcon from "../../assets/icons/PlayIcon";
-import LockIcon from "../../assets/icons/LockIcon";
-import CommentsIcon from "../../assets/icons/CommentsIcon";
-import NumberOneIcon from "../../assets/icons/NumberOneIcon";
-import StarIcon from "../../assets/icons/StarIcon";
-import LandingFooter from "./components/Footer";
-import CardUse from "./components/CardUse";
 import { ContainerOpenModal } from "../../containers/container";
+import { Button, Span, Title, Text } from "../../assets/styles/UI";
 
 function LandingPage() {
   return (
@@ -101,32 +91,7 @@ function LandingPage() {
         <Text variant="texting2">Você precisa de apenas três passos!</Text>
 
         <UseSectionStepContainer>
-          <CardUse
-            step="Passo 1"
-            title="INFORME SUA LOCALIZAÇÃO"
-            text="Com a sua localização conseguimos encontrar os profissionais de beleza
-        mais próximos de você."
-          >
-            <LocationIcon />
-          </CardUse>
-
-          <CardUse
-            step="Passo 2"
-            title="ESCOLHA O SERVIÇO DESEJADO E AGENDE UM HORÁRIO"
-            text="O Beauty Planner realiza o agendamento, te deixando cada vez mais
-          próximo do seu profissional de beleza."
-          >
-            <Choose />
-          </CardUse>
-
-          <CardUse
-            step="Passo 3"
-            title="PRONTO!"
-            text="Basta você se deslocar para o local escolhido na hora agendada e
-          cuidar da sua beleza."
-          >
-            <Travel />
-          </CardUse>
+          <CardListing />
         </UseSectionStepContainer>
       </UseSectionContainer>
 
@@ -134,55 +99,7 @@ function LandingPage() {
         <Title variant="heading2" color="var(--primary)">
           O planejamento da sua beleza é a nossa prioridade
         </Title>
-        <RatingSectionColumn>
-          <RatingItem
-            title="MAIS QUALIDADE"
-            text="Encontre os melhores profissionais da sua região com apenas alguns
-          cliques."
-          >
-            <GrowthIcon />
-          </RatingItem>
-
-          <RatingItem
-            title="AVALIE OS PROFISSIONAIS"
-            text="Após o serviço, avalie o profissional com uma nota de acordo com
-            o desempenho."
-          >
-            <StarIcon />
-          </RatingItem>
-
-          <RatingItem
-            title="VOCÊ COMO PRIORIDADE"
-            text="Você é a nossa principal prioridade. Agende seu horário e seja
-            atendido na hora marcada!"
-          >
-            <NumberOneIcon />
-          </RatingItem>
-
-          <RatingItem
-            title="ADICIONE COMENTÁRIOS"
-            text="Comente sobre o desempenhos dos profissionais e leia outras
-            avaliações."
-          >
-            <CommentsIcon />
-          </RatingItem>
-
-          <RatingItem
-            title="GANHE TEMPO"
-            text="Agende os serviços no horário que desejar, sem precisar sair do
-            lugar, e com três cliques."
-          >
-            <PlayIcon />
-          </RatingItem>
-
-          <RatingItem
-            title="MAIOR SEGURANÇA"
-            text="Pode deixar seu dinheiro em casa, e andar tranquilo. Pois tudo
-            será cobrado no cartão de crédito!"
-          >
-            <LockIcon />
-          </RatingItem>
-        </RatingSectionColumn>
+        <RatingSection />
       </RatingSectionContainer>
 
       <LandingFooter />
