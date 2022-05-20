@@ -1,7 +1,7 @@
 # Beauty Planner
 
 <h4 align="center"> 
-	🚧  Beauty Planner 🚀 Em andamento ... 🚧
+	🚧  Beauty Planner 🚀 Em andamento ..... 🚧
 </h4>
 
 ## Tópicos
@@ -48,18 +48,18 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 - [x] Construção da LandingPage;
 - [x] Responsividade da LandingPage;
 - [x] Exportar componentes na Landing page;
+- [ ] Criar UI para Avatar da StorePage;
 - [ ] Implementar Modal na Landing page;
 - [x] Implementar Modal no HeaderSearch;
 - [ ] Pesquisar na documentação do StyledComponents como agregar propriedades do componente com a function CSS;
 - [ ] Estilizar e componentizar Modal no HeaderSearch;
-- [ ] Implementar funcionalidade no componente SearchInput;
-- [x] Implementar rotas para a Search Page;
-- [x] Componentização da Search Page;
-- [ ] Estilização da Search Page;
-- [ ] Criar UI para Avatar;
 - [ ] Adicionar mapa na Search Page;
 - [ ] Responsividade da Search Page;
+- [ ] Estilização da Search Page;
+- [x] Implementar rotas para a Search Page;
+- [x] Componentização da Search Page;
 - [x] Implementar rotas para a Store Page;
+- [ ] Implementar funcionalidade no componente SearchInput;
 - [ ] Componentização da Store Page;
 - [ ] Estilização da Store Page;
 - [ ] Responsividade da Store Page;
